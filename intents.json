@@ -1,0 +1,37 @@
+{"intents": [
+        {"tag": "przywitanie",
+         "patterns": ["Czesc", "Hej", "Halo", "Dzien dobry", "Witaj", "Elo"],
+         "responses": ["Czesc, na co masz dzis ochote?", "Czesc, czego dzis bedziemy szukac?", "Hej, co moge Ci polecic?", "Witaj, co chcesz dzis zjesc?"],
+         "context_set": ""
+        },
+        {"tag": "pozegnanie",
+         "patterns": ["Pa", "Dzieki", "Dziekuje", "Do widzenia", "Zegnaj", "Do zobaczenia", "Ok", "Tak"],
+         "responses": ["Dzieki za skorzystanie z mojej pomocy!", "Smacznego! Do widzenia", "Czesc. Milego dnia!", "Czesc, nastepnym razem tez polece cos super ;)", "Do zobaczenia, smacznego!"]
+        },
+        {"tag": "fastfood",
+         "patterns": ["fastfood","Cos na szybko", "Smieciowe jedzenie", "Smieciowe zarcie", "Cos niezdrowego", "Gotowe jedzenie", "Cos gotowego", "Czegos na szybko", "Czegos gotowego" ],
+         "responses": ["pizza", "kebab", "hamburger", "frytki", "zapiekanka", "hot dog", "nuggetsy", "wrapy", "cheeseburger"]
+        },
+        {"tag": "italian",
+         "patterns": ["italian","Na kuchnie wloska", "Cos wloskiego", "Kuchnie wloska", "wloskie", "wloch"],
+         "responses": ["pizza", "lasagne", "makaron z warzywami", "spaghetti", "risotto"]
+        },
+        {"tag": "sweet",
+         "patterns": ["sweet","Na cos slodkiego", "Chce cos slodkiego", "Polec cos slodkiego", "Cos slodkiego", "Slodkie", "Czegos slodkiego", "Na deser", "Deser", "Polec deser", "cos na deser"],
+         "responses": ["lody", "deser Panna Cotta", "cukierki z wawelu ;)", "kawalek ciasta", "raffaello", "czekolada", "gofry z bita smietana", "rurki z kremem", "czekoladowe babeczki", "kinder bueno"]
+        },
+        {"tag": "asian",
+         "patterns": ["asian","azjatyckie", "azjatyckiego", "azji"],
+         "responses": ["pad-thai", "kurczak curry", "kimchi", "dim-sum"]
+        },
+        {"tag": "polish",
+         "patterns": ["polish","polskie", "lokalne", "tradycyjne", "polskiego", "lokalnego", "tradycyjnego" ],
+         "responses": ["mielone z ziemniaczkami", "bigos", "pierogi ruskie"]
+        },
+        {"tag": "dontknow",
+         "patterns": ["Nie wiem", "Nie mam pomyslu", "Polec cos"],
+         "responses": ["Na co masz ochote?", "Co bys zjadl?"]
+        }
+
+   ]
+}
